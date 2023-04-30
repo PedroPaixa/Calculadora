@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="calc">
+      <div class="screen">
+        <input class="screen-input" type="text" name="screen" id="screen" placeholder="0">
+      </div>
+      <div class="teclado">
+        <button class="teclado-btn btn01" onclick="insert('C')">C</button>
+        <button class="teclado-btn btn02" onclick="insert('(')">(</button>
+        <button class="teclado-btn btn03" onclick="insert(')')">)</button>
+        <button class="teclado-btn btn04" onclick="insert('/')">/</button>
+        <button class="teclado-btn btn05" onclick="insert('7')">7</button>
+        <button class="teclado-btn btn06" onclick="insert('8')">8</button>
+        <button class="teclado-btn btn07" onclick="insert('9')">9</button>
+        <button class="teclado-btn btn08" onclick="insert('X')">X</button>
+        <button class="teclado-btn btn09" onclick="insert('4')">4</button>
+        <button class="teclado-btn btn10" onclick="insert('5')">5</button>
+        <button class="teclado-btn btn11" onclick="insert('6')">6</button>
+        <button class="teclado-btn btn12" onclick="insert('-')">-</button>
+        <button class="teclado-btn btn13" onclick="insert('1')">1</button>
+        <button class="teclado-btn btn14" onclick="insert('2')">2</button>
+        <button class="teclado-btn btn15" onclick="insert('3')">3</button>
+        <button class="teclado-btn btn16" onclick="insert('+')">+</button>
+        <button class="teclado-btn btn17" onclick="insert('Delete')">Delete</button>
+        <button class="teclado-btn btn18" onclick="insert('0')">0</button>
+        <button class="teclado-btn btn19" onclick="insert(',')">,</button>
+        <button class="teclado-btn btn20" onclick="insert('=')">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
